@@ -1,7 +1,29 @@
-# slider-project
-A slider for the site was created based on the layout. This is an autonomous part that can be further implemented into the working site.  The main task is to transform the appearance of the site so that images and information about the object change on it.
+# Responsive JavaScript Slider
 
-The following control elements are set:
-1. Arrows — switch slides in a ring. That is, after slide #3, slide #1 will open again.
-2. Circles between the arrows — turn on the desired slide.
-3. Links above the slider — turn on the desired slide.
+This project is a pixel-perfect implementation of a static slider built with HTML, CSS, and JavaScript, based on a Figma design.
+
+## 🔧 Features
+
+- Fully responsive layout matching Figma design
+- Interactive navigation:
+  - Clickable tabs with active state
+  - Navigation with arrows
+  - Dot-based navigation
+- Dynamic content change (image and slide info)
+- Smooth fade transition between slides
+- BEM methodology used throughout
+- Custom fonts (Yeseva One & Nunito Sans)
+
+## 💡 Tech Stack
+
+- HTML5
+- CSS3 (Flexbox + Grid, BEM, transitions)
+- Vanilla JavaScript (DOM manipulation)
+
+## 📁 Structure
+
+- `index.html` — main markup
+- `css/style.css` — full pixel-perfect styling
+- `js/script.js` — interactive logic and state handling
+- `images/` — slide assets and icons
+

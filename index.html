@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Слайдер проект</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="slider">
+        <nav class="slider__nav">
+            <a href="#" class="slider__link">Rostov-on-Don, Admiral</a>
+            <a href="#" class="slider__link">Sochi Thieves</a>
+            <a href="#" class="slider__link">Rostov-on-Don Patriotic</a>
+        </nav>
+
+    <div class="slider__content">
+        <div class="slider__left">
+            <div class="slider__info">
+                <h2 class="slider__title">Completed projects</h2>
+                <p class="slider__description">
+                Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br>
+                market we have made happy more than 1000 families
+                </p>
+            <div class="slider__details">
+                <div class="slider__detail">
+                    <h3 class="slider__detail-title">City:</h3>
+                    <p class="slider__detail-value" data-field="city">Rostov-on-Don<br>LCD admiral</p>
+                </div>
+                <div class="slider__detail">
+                    <h3 class="slider__detail-title">Apartment area:</h3>
+                    <p class="slider__detail-value" data-field="area">81 m²</p>
+                </div>
+                <div class="slider__detail">
+                    <h3 class="slider__detail-title">Repair time:</h3>
+                    <p class="slider__detail-value" data-field="time">3.5 months</p>
+                </div>
+                <div class="slider__detail">
+                    <h3 class="slider__detail-title">Repair cost:</h3>
+                    <p class="slider__detail-value" data-field="cost">Upon request</p>
+                </div>
+            </div>              
+          </div>
+      
+        <div class="slider__controls">
+            <div class="slider__line"></div>
+            <div class="slider__buttons">
+                <button class="slider__arrow slider__arrow--left">
+                    <img src="images/icons/arrow-left.svg" alt="Предыдущий">
+                </button>
+                <div class="slider__dots">
+                    <span class="slider__dot active"></span>
+                    <span class="slider__dot"></span>
+                    <span class="slider__dot"></span>
+                </div>
+                <button class="slider__arrow slider__arrow--right">
+                    <img src="images/icons/arrow-right.svg" alt="Следующий">
+                </button>
+                </div>
+        </div>
+    </div>  
+
+    <div class="slider__image-container">
+        <img src="images/rostov-on-don_admiral.png" alt="Slide image" class="slider__image">
+    </div>
+
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
